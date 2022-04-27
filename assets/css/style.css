@@ -1,0 +1,89 @@
+body {
+    font-family: "Helvetica Neue", "Arial", serif;
+    color: #888888;
+}
+
+/* Header ==================*/
+
+.header {
+    padding: 66px 0 69px;
+    background: linear-gradient(14deg, white 28.6%, #707070 29%);
+}
+
+.title-wrapper {
+    margin-bottom: 56px;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.title.--big {
+    font-size: 40px;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu .menu-item {
+    width: 50%;
+}
+
+.menu .menu-item .btn {
+    display: block;
+    margin: 0 10px 20px;
+}
+
+/* Form register ==================*/
+
+.form-register .info {
+    margin-bottom: 30px;
+}
+
+.form-register .title {
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.form-register p {
+    font-size: 12px;
+    line-height: 18px;
+    padding-bottom: 12px;
+}
+
+/* Form geral ==================*/
+
+.form .form-group {
+    margin-bottom: 20px;
+}
+
+.form .form-group label {
+    font-size: 12px;
+    margin-bottom: 7px;
+}
+
+.form .form-group input:not([type=radio]):not([type=checkbox]) {
+    width: 100%;
+    border: 1px solid #707070;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.btn {
+    display: inline-block;
+    color: #888888;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 23px;
+    border: 1px solid #707070;
+    border-radius: 4px;
+}
